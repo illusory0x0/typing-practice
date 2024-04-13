@@ -1,0 +1,41 @@
+.main-window {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    height: 100vh;
+    margin: 0;
+}
+
+.input-promt {
+    display: flex;
+    flex-flow: column;
+}
+
+.keyboard {
+    margin-top: 20px;
+    display: grid;
+    border: 2px solid black;
+
+    grid-template-columns: repeat(29,1fr);
+    grid-template-rows: repeat(8,1fr);
+    width: 725px;
+    height: 200px;
+}
+.keyboard > div 
+{
+    color: red;
+    border: 2px solid black;
+    grid-row-end: span 2;
+    grid-column-end: span 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.keyview_1_1
+{
+    grid-row-start: 1;
+    grid-column-start: 1;
+}
