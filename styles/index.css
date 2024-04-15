@@ -24,18 +24,11 @@
 }
 .keyboard > div 
 {
+    margin: 1px;
     color: red;
-    border: 2px solid black;
-    grid-row-end: span 2;
-    grid-column-end: span 2;
+    border: 1px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: column;
-}
-
-.keyview_1_1
-{
-    grid-row-start: 1;
-    grid-column-start: 1;
 }
